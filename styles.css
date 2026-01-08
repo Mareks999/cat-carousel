@@ -1,0 +1,32 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  max-width: 700px;
+}
+
+
+.carousel-item img {
+  height: 400px;         
+  object-fit: cover;      
+  border-radius: 12px;  
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);    
+}
+
+
+.carousel-indicators button {
+  background-color: #000;
+}
+
+.carousel-indicators .active {
+  background-color: #ff6600;
+}
